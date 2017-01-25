@@ -258,6 +258,7 @@ class DataStructure {
             case "String":
                 return " = \"\"";
             case "int":
+            case "long":
                 return " = 0";
             case "float":
                 return " = 0.0";

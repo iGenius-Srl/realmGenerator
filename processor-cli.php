@@ -52,7 +52,7 @@ function getTypeName($val, $argument = null) {
                 return "String";
             }
         case "integer":
-            return "int";
+            return "long";
         case "double":
             return "float";
         case "boolean":
